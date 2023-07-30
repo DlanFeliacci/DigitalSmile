@@ -9,7 +9,7 @@ const Footer = ({text}) => {
   return (
     <main className='w-full h-full'>
         <div className='h-auto pb-8'>
-            <div className='bg-[#7BBF43] text-center py-6'>
+            <div className='bg-gradient-to-r from-[#7BBF43] to-emerald-500 to-90% text-center py-6'>
                 <p className='text-2xl font-bold text-white'>Besoin d'une agence de communication?</p>
                 <br />
                 <p className='text-white'>{text}</p>           

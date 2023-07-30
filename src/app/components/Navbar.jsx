@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import Logo from '../../../public/logo1.jpg'
+import Logo from '../../../public/logo-digital-smile.png'
 import Image from 'next/image'
 import { FaBars, FaTimes } from "react-icons/fa";
 
