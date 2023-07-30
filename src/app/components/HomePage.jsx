@@ -2,6 +2,7 @@ import Expertise from '../components/Expertise'
 import Realisation from '../components/Realisation'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import TroisBonnesRaisons from '../components/TroisBonnesRaisons'
 
 const HomePage = () => {
 
@@ -12,7 +13,8 @@ const HomePage = () => {
         <Hero />
         <Expertise />
         <Realisation />
-        <Footer text={text}/>
+        <TroisBonnesRaisons />
+        <Footer text={text} />
     </>
   )
 }

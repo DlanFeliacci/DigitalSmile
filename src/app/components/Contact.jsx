@@ -4,7 +4,7 @@ import logo3 from '../../../public/logo3-ds.jpg'
 const Contact = () => {
   return (
     <>
-    <div className='background-contact'></div>
+    <div className='background-contact h-auto max-w-full'></div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
         <div className='lg:w-[800px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto">

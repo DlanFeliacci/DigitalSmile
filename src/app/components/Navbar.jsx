@@ -52,7 +52,7 @@ const navbar = () => {
             </div>
                 {/* Hamburger */}
                 <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
-                    {!nav ? <FaBars /> : <FaTimes />}
+                    {!nav ? <FaBars size={30}/> : <FaTimes size={30}/>}
                 </div>
 
                 {/* Mobile menu */}

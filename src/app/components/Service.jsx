@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import Photography from '../../../public/Photography-icon.png'
 import PrinterIcon from '../../../public/Printer-icon.png'
@@ -8,7 +9,7 @@ import Logo from '../../../public/Logo-icon.png'
 const Service = () => {
   return (
     <>
-      <div className="custom-services"></div>
+      <div className="custom-services h-auto max-w-full"></div>
       <section className="flex justify-center pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container">
           <div className="flex flex-wrap">
@@ -40,7 +41,7 @@ const Service = () => {
             />
             <ServiceCard
               title="Web Design"
-              details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+              details="lorem ipsum"
               icon={<Image src={Webdesign}/>}
             />
             <ServiceCard
