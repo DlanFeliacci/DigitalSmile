@@ -3,6 +3,7 @@ import Realisation from '../components/Realisation'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import TroisBonnesRaisons from '../components/TroisBonnesRaisons'
+import GrayDiagonalUp from '../components/GrayDiagonalUp'
 
 const HomePage = () => {
 
@@ -13,6 +14,7 @@ const HomePage = () => {
         <Hero />
         <Expertise />
         <Realisation />
+        <GrayDiagonalUp />
         <TroisBonnesRaisons />
         <Footer text={text} />
     </>

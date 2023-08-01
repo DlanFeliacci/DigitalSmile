@@ -1,5 +1,6 @@
 import Image from "next/image"
 import logo3 from '../../../public/logo3-ds.jpg'
+import robot from '../../../public/robot.png'
 
 const Contact = () => {
   return (
@@ -7,13 +8,16 @@ const Contact = () => {
     <div className='background-contact h-auto max-w-full'></div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
         <div className='lg:w-[800px] flex flex-col justify-evenly '>
-            <div className="text-center w-3/4 mx-auto">
+            <div className="text-center w-3/4 mx-auto pb-4">
                 <p className="text-center text-3xl font-bold">Jobs</p> 
                 <p>Notre société est en permanence à la recherche de nouveaux talents. n'hésitez pas à nous envoyer votre candidature avec un lien vers votre site. </p>
             </div>
             <div className="flex justify-center">
-                <Image src={logo3}  className=" mb-10 w-3/5 md:w-4/12 lg:w-5/12" />       
+                <Image src={logo3} className="mb-10 w-2/5 md:w-4/12 lg:w-4/12" />       
             </div> 
+        </div>
+        <div className="hidden lg:block md:w-[150px] md:h-[200px] relative top-[250px] right-[50px] ">
+            <Image src={robot} />
         </div>
         <form method='POST' className="w-full max-w-lg m-auto" action='https://getform.io/f/15cba2b2-cc68-4921-8530-f0c5dc2bbd50'>
             <div className="flex flex-wrap -mx-3 mb-6">

@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div >
       <About />
-      <Footer text={text}/>
+      <Footer text={text} />
     </div>
   )
 }

@@ -22,7 +22,7 @@ const projects = () => {
           <div className='w-4/5 sm:w-full grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 '>
             {/* Grid item 1 */}
               <div className="">
-                <Image className='object-cover  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div' src={Realisation1}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center mx-auto items-center content-div' src={Realisation1}/>
                 {/*Hover Effect*/}
                 <div className='opacity-0 group-hover:opacity-100 text-center'>
                     <div className="text-2xl font-bold flex  justify-center pt-4">
@@ -33,7 +33,7 @@ const projects = () => {
 
                 {/* Grid item 2 */}
                 <div className="">
-                  <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation2}/>
+                  <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation2}/>
                   {/*Hover Effect*/}
                   <div>
                       <div className="flex justify-center pt-4">
@@ -45,7 +45,7 @@ const projects = () => {
         
               {/* Grid item 3 */}
               <div className="">
-                <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation3}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation3}/>
                   {/*Hover Effect*/}
                   <div>
                     <div className="flex justify-center pt-4">
@@ -56,7 +56,7 @@ const projects = () => {
 
               {/* Grid item 4 */}
               <div className="">
-                <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation4}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation4}/>
                   {/*Hover Effect*/}
                   <div>
                     <div className="flex justify-center pt-4">
@@ -67,7 +67,7 @@ const projects = () => {
 
               {/* Grid item 5 */}
               <div className="">
-                <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation5}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation5}/>
                   {/*Hover Effect*/}
                   <div>
                     <div className="flex justify-center pt-4">
@@ -78,7 +78,7 @@ const projects = () => {
 
               {/* Grid item 6 */}
               <div className="">
-                <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation6}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation6}/>
                   {/*Hover Effect*/}
                   <div>
                     <div className="flex justify-center pt-4">
@@ -89,7 +89,7 @@ const projects = () => {
 
               {/* Grid item 7 */}
               <div className="">
-                <Image className='object-cover shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation7}/>
+                <Image className='object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation7}/>
                   {/*Hover Effect*/}
                   <div>
                     <div className="flex justify-center pt-4">

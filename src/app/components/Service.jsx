@@ -1,8 +1,9 @@
 'use client'
 import Image from "next/image"
 import Photography from '../../../public/Photography-icon.png'
-import PrinterIcon from '../../../public/Printer-icon.png'
-import Webdesign from '../../../public/Webdesign-icon.png'
+import PrinterIcon from '../../../public/printer.png'
+import Webdesign from '../../../public/webdesign.png'
+import Signage from '../../../public/signage.png'
 import Catalogue from '../../../public/catalogue-icon.png'
 import Logo from '../../../public/Logo-icon.png'
 
@@ -29,10 +30,10 @@ const Service = () => {
             </div>
           </div>
           <div className="flex flex-wrap">
-            <ServiceCard
-              title="Photography"
+          <ServiceCard
+              title="Graphic Creation"
               details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-              icon={<Image src={Photography}/>}
+              icon={<Image src={Logo}/>}
             />
             <ServiceCard
               title="Printing"
@@ -40,25 +41,26 @@ const Service = () => {
               icon={<Image src={PrinterIcon}/>}
             />
             <ServiceCard
-              title="Web Design"
-              details="lorem ipsum"
+              title="Signage System"
+              details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+              icon={<Image src={Signage}/>}
+            />
+            <ServiceCard
+              title="Digital Marketing"
+              details="lorem ipsum havus boro drem"
               icon={<Image src={Webdesign}/>}
+            />
+            <ServiceCard
+              title="Audiovisual Production"
+              details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+              icon={<Image src={Photography}/>}
             />
             <ServiceCard
               title="Packaging"
               details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
               icon={<Image src={Catalogue}/>}
             />
-            <ServiceCard
-              title="Photography"
-              details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-              icon={<Image src={Photography}/>}
-            />
-            <ServiceCard
-              title="Logo"
-              details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-              icon={<Image src={Logo}/>}
-            />
+            
           </div>
         </div>
       </section>

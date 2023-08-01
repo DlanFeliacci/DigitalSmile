@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import catalogue from '../../../public/catalogue-icon.png'
-import Webdesign from '../../../public/Webdesign-icon.png'
-import Printer from '../../../public/Printer-icon.png'
+import Webdesign from '../../../public/webdesign.png'
+import Printer from '../../../public/printer.png'
 import Photography from '../../../public/Photography-icon.png'
 import Logo from '../../../public/Logo-icon.png'
 

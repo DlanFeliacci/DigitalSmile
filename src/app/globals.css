@@ -32,17 +32,18 @@
 }
 
 .background-contact {
-  background-image: url("../../public/contacttt.png");
-  background-size: cover;
+  background-image: url("../../public/contact-bg-logo1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   object-fit: cover;
-  background-position: center;
+  background-position: right;
   height: 100vh;
 }
 
 .background-about {
-  background-image: url("../../public/about-cover.png");
+  background-image: url("../../public/About.png");
   background-size: cover;
-  background-position: center;
+  background-position: 25% 75%;
   height: 100vh;
 }
 
@@ -55,4 +56,13 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+.gray-diagonal-up {
+  position: relative;
+  top: 50px;
+  height: 100px; /* Adjust the height according to your needs */
+  background-color: #F5F5F5; /* Replace with your desired background color */
+  transform: skewY(-3.5deg); /* Adjust the degree of skewing as needed */
+  position: 500px 400px;
 }
