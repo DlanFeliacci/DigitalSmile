@@ -10,7 +10,7 @@ import Realisation7 from '../../../public/Realisation7.png'
 
 const projects = () => {
 
-  const text = 'Nous avons pleins de projets à vous montrer'
+  const text = 'We have lots of projects to show you'
 
   return (
     <div className='pt-[400px]'>

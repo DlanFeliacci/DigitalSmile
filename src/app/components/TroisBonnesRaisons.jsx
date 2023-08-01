@@ -14,28 +14,28 @@ const TroisBonnesRaisons = () => {
             </div>
             <div className='text-center pb-10 pt-5 text-gray-500'>Creative Branding Agency Situated in Algiers</div>
             <div className='flex flex-col lg:flex-row justify-evenly'>
-                <div className='flex h-auto w-auto py-5'>
-                    <div className='mx-3'>
-                    <Image src={uno} width={90} />
+                <div className='ml-6 flex h-auto w-auto py-5'>
+                    <div className='mx-3 w-[100px]'>
+                    <Image src={uno} />
                     </div>
-                    <div className='w-2/3'>
-                        <p className='leading-7 text-justify'>Nous somme crétatifs et pointus dans notre travail.  Vous  pouvez naviguer sur notre site et découvrir nos références afin de vous en assurer.</p>
-                    </div>
-                </div>
-                <div className='flex h-auto w-auto py-5'>
-                    <div className='mx-3'>
-                    <Image src={deux} width={90} />
-                    </div>
-                    <div className='w-2/3'>
-                        <p className='leading-7 text-justify'>Notre agence est composee d'une petite equipe dirigee par le graphiste en personne. Vous aurez donc un contact direct avec celui-ci sans passer par des commerciaux</p>
+                    <div className='w-5/6'>
+                        <p className='leading-7 text-justify'>We are creative and sharp in our work. Our experience in the field make the difference, you can browse our site and discover our references to be sure.</p>
                     </div>
                 </div>
-                <div className='flex h-auto w-auto py-5'>
-                    <div className='mx-3'>
-                    <Image src={trois} width={90} />
+                <div className='ml-6 flex h-auto w-auto py-5'>
+                    <div className='mx-3 w-[100px]'>
+                    <Image src={deux} />
                     </div>
-                    <div className='w-2/3'>
-                        <p className='leading-7'>Nous exercçons notre metier avec passion et implication. Le taux de satisfaction de nos clients témoigne de la qualite de notre travial.</p>
+                    <div className='w-5/6'>
+                        <p className='leading-7 text-justify'>Our agency is made up of a small team led by the graphic designer himself. You will therefore have direct contact with him without going through sales representatives.</p>
+                    </div>
+                </div>
+                <div className='ml-6 flex h-auto w-auto py-5'>
+                    <div className='mx-3 w-[100px]'>
+                    <Image src={trois} />
+                    </div>
+                    <div className='w-5/6'>
+                        <p className='leading-7'>We do our job with passion and dedication. The satisfaction of our clients is priority to us, the rate of our customers testifies to the quality of our work.</p>
                     </div>
                 </div>
             </div>

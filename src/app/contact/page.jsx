@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
 
-  const text = 'Contactez nous dès à présent !'
+  const text = 'Get in touch with us now !'
 
   return (
     <div>

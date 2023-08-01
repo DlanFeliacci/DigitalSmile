@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
 
-  const text = 'Design graphique, compagne de pub, création de logo, pacaging, signalétique, web design...'
+  const text = 'Graphic design, advertising campaign, logo creation, pacaging, signage, web design...'
 
   return (
     <div >

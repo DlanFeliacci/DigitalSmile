@@ -4,7 +4,7 @@ import Service from '../components/Service'
 
 const Services = () => {
 
-  const text = 'Nous proposons des campagnes de pubs, des chartes graphiques, des affiches, des sites internet, et photographie'
+  const text = 'We offer advertising campaigns, graphic charters, posters, websites, and photography'
   
   return (
     <div>
