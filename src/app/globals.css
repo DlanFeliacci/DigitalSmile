@@ -33,18 +33,18 @@
 
 .background-contact {
   background-image: url("../../public/contact-bg-logo1.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: right;
-  height: 100vh;
 }
 
 .background-about {
   background-image: url("../../public/About.png");
-  background-size: cover;
-  background-position: 25% 75%;
-  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .contact-img {
@@ -52,7 +52,7 @@
 }
 
 .custom-services {
-  background-image: url("../../public/servicesCover.png");
+  background-image: url("../../public/forest-services.png");
   background-size: cover;
   background-position: center;
   height: 100vh;

@@ -43,7 +43,7 @@ const navbar = () => {
                     </Link> 
                     <Link href='/contact'>
                         <li className="hover:text-white duration-300 p-2">
-                            <span className='bg-[#7BBF43] hover:bg-[#534092] duration-300 p-2 px-4 rounded-br-3xl rounded-tl-3xl'>Contact</span>  
+                            <span className='bg-[#7BBF43] hover:bg-[#534092] text-white duration-300 p-2 px-4 rounded-3xl'>Contact</span>  
                         </li>
                     </Link> 
                 </ul>

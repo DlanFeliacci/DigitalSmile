@@ -1,11 +1,17 @@
+'use client'
 import Image from "next/image"
 import logo3 from '../../../public/logo3-ds.jpg'
 import robot from '../../../public/robot.png'
+import Lottie from 'lottie-react'
+import animationData from '../../../public/animation_lkwo4f21.json'
 
 const Contact = () => {
   return (
     <>
-    <div className='background-contact h-auto max-w-full'></div>
+    <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
+    <div className="absolute top-[200px]">
+        <Lottie animationData={animationData} style={{maxWidth: '30%'}}/>
+    </div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
         <div className='lg:w-[800px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">

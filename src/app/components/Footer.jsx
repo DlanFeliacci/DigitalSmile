@@ -1,6 +1,7 @@
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiOutlineFacebook } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 import Image from 'next/image'
 import RobotHead from '../../../public/robot-head.png'
 
@@ -10,11 +11,11 @@ const Footer = ({text}) => {
 
   return (
     <main className='w-full h-full'>
-        <div className='h-auto pb-10'>
-            <div className='bg-gradient-to-r from-[#7BBF43] to-emerald-500 to-90% text-center py-8'>
-                <p className='text-3xl font-bold text-white'>Do you need a branding agency?</p>
+        <div className='h-auto'>
+            <div className='bg-[#7BBF43] text-center py-8'>
+                <p className='text-3xl font-bold text-[#4F499D]'>Do you need a branding agency?</p>
                 <br />
-                <p className='text-white font-semibold mx-4'>{text}</p>           
+                <p className='text-[#4F499D] font-semibold mx-4'>{text}</p>           
             </div>
         </div>
 
@@ -50,29 +51,29 @@ const Footer = ({text}) => {
         </div> */}
 
         <div className='h-auto grid grid-cols-2'>
-            <div className='items-center lg:mr-6 lg:w-6/12 m-auto md:pt-0'>
+            <div className='items-center lg:mr-6 lg:w-5/12 m-auto md:pt-0'>
                 <Image src={RobotHead}/>
             </div> 
-            <div className='grid gird-rows-3 md:justify-center lg:justify-start gap-y-2 lg:ml-[100px]'>
-                <div className='py-4'>
-                    <p className='text-[#4F499D] font-bold text-md sm:text-2xl tracking-widest text-center'>Appelez Nous</p>
-                    <p className='font-semibold tracking-wilder text-md sm:text-2xl text-center'>+213 542 05 41 23</p>
+            <div className='grid gird-rows-3 items-center justify-start lg:ml-[100px]'>
+                <div className='lg:flex'>
+                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'> Call us on: <BsFillTelephoneFill className='inline'/>&nbsp; </p>
+                    <p className='font-semibold tracking-wilder text-md text-center'>+213 542 05 41 23</p>
                 </div>
-                <div className='py-4'>
-                    <p className='text-[#4F499D] font-bold text-md sm:text-2xl tracking-widest text-center'>Digital Smile Dz</p>
-                    <p className='font-semibold tracking-wilder text-md sm:text-2xl text-center'>Alger, Algérie</p>
+                <div className='lg:flex'>
+                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'>Digital Smile Dz &nbsp; </p>
+                    <p className='font-semibold tracking-wilder text-md text-center'>Algiers, Algeria</p>
                 </div>
-                <div className='py-4'>
-                    <p className='text-[#4F499D] font-bold text-md sm:text-2xl tracking-widest text-center'>Suivez nous...</p>
-                    <div className='flex justify-evenly'>
+                <div className='lg:flex'>
+                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'>Follow us &nbsp;</p>
+                    <div className='flex justify-evenly lg:gap-4'>
                         <a href='https://www.linkedin.com/company/98183946/' target="_blank">
-                            <AiOutlineLinkedin size={40}/>
+                            <AiOutlineLinkedin size={35}/>
                         </a>
                         <a href='https://www.facebook.com/profile.php?id=100087374435338' target="_blank">
-                            <AiOutlineFacebook size={40}/>
+                            <AiOutlineFacebook size={35}/>
                         </a>
                         <a href='' target="_blank">
-                            <AiOutlineMail size={40}/>
+                            <AiOutlineMail size={35}/>
                         </a>
                     </div>
                 </div>
