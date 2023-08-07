@@ -35,7 +35,7 @@ const Expertise = () => {
 
           <div className='flex flex-row md:mr-auto '>
             <div className='pr-2'>
-              <Image src={Printer} width='80' />
+              <Image src={Printer} width='80' alt='img' />
             </div>
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Signage System</p>
@@ -50,7 +50,7 @@ const Expertise = () => {
 
           <div className='flex flex-row  md:mr-auto'>
             <div className='pr-2'>
-              <Image src={Signage} width='80' />
+              <Image src={Signage} width='80' alt='img' />
             </div>
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Signage System</p>
@@ -65,7 +65,7 @@ const Expertise = () => {
 
           <div className='flex flex-row md:ml-auto '>
             <div className='pr-2'>
-              <Image src={Webdesign} width='80' />
+              <Image src={Webdesign} width='80' alt='img' />
             </div>
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Digital Marketing</p>
@@ -80,7 +80,7 @@ const Expertise = () => {
 
           <div className='flex flex-row md:mr-auto '>
             <div className='pr-2'>
-              <Image src={Photography} width='80' />
+              <Image src={Photography} width='80' alt='img'/>
             </div>
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Audiovisual Production</p>
@@ -95,7 +95,7 @@ const Expertise = () => {
           
           <div className='flex flex-row md:mr-auto '>
             <div className='pr-2'>
-              <Image src={Printer} width='80' />
+              <Image src={Printer} width='80' alt='img'/>
             </div>
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Other</p>

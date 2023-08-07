@@ -16,7 +16,7 @@ const navbar = () => {
             {/*Logo*/}
             <div className='lg:ml-24'>
                 <Image 
-                src={Logo} width={190} objectFit='cover'/>
+                src={Logo} width={190} objectFit='cover' alt='img'/>
             </div>
             {/* Menu */}
             <div className="lg:mr-24  text-black">

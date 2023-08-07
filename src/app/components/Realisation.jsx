@@ -17,7 +17,7 @@ const Realisation = () => {
         <div className='grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 sm:max-w-[1100px] gap-2'>
           {/* Grid item 1 */}
           <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center mx-auto items-center content-div' src={Realisation1}/>
+            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center mx-auto items-center content-div' src={Realisation1} alt='img'/>
             {/*Hover Effect*/}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
                 <div className="text-2xl font-bold flex  justify-center pt-4">
@@ -28,7 +28,7 @@ const Realisation = () => {
 
           {/* Grid item 2 */}
           <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation2}/>
+            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation2} alt='img'/>
             {/*Hover Effect*/}
             <div>
                 <div className="flex justify-center pt-4">
@@ -40,7 +40,7 @@ const Realisation = () => {
       
             {/* Grid item 3 */}
             <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation3}/>
+            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation3} alt='img'/>
               {/*Hover Effect*/}
               <div>
                 <div className="flex justify-center pt-4">
@@ -51,7 +51,7 @@ const Realisation = () => {
 
             {/* Grid item 4 */}
             <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation4}/>
+            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation4} alt='img'/>
               {/*Hover Effect*/}
               <div>
                 <div className="flex justify-center pt-4">

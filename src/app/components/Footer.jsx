@@ -52,7 +52,7 @@ const Footer = ({text}) => {
 
         <div className='h-auto grid grid-cols-2'>
             <div className='items-center lg:mr-6 lg:w-5/12 m-auto md:pt-0'>
-                <Image src={RobotHead}/>
+                <Image src={RobotHead} alt='img'/>
             </div> 
             <div className='grid gird-rows-3 items-center justify-start lg:ml-[100px]'>
                 <div className='lg:flex'>

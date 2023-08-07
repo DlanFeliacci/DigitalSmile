@@ -19,11 +19,11 @@ const Contact = () => {
                 <p>Notre société est en permanence à la recherche de nouveaux talents. n'hésitez pas à nous envoyer votre candidature avec un lien vers votre site. </p>
             </div>
             <div className="flex justify-center">
-                <Image src={logo3} className="mb-10 w-2/5 md:w-4/12 lg:w-4/12" />       
+                <Image src={logo3} className="mb-10 w-2/5 md:w-4/12 lg:w-4/12" alt='img' />       
             </div> 
         </div>
         <div className="hidden lg:block md:w-[150px] md:h-[200px] relative top-[250px] right-[50px] ">
-            <Image src={robot} />
+            <Image src={robot} alt='img' />
         </div>
         <form method='POST' className="w-full max-w-lg m-auto" action='https://getform.io/f/15cba2b2-cc68-4921-8530-f0c5dc2bbd50'>
             <div className="flex flex-wrap -mx-3 mb-6">
