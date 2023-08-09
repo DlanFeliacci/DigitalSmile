@@ -20,7 +20,7 @@ const Expertise = () => {
 
           <div className='flex flex-row md:ml-auto'>
             <div className='pr-2'>
-              <Image src={Logo} width='80' />
+              <Image src={Logo} width='80' alt='img'/>
             </div>
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Graphic Creation</p>

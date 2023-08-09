@@ -12,46 +12,55 @@ import logo5 from '../../../public/logo5.png'
     {
         id: 1,
         category: 'photo',
+        title: 'test1',
         image: Realisation1
     }, 
     {
         id: 2,
         category: 'web',
+        title: 'test2',
         image: Realisation2
     }, 
     {
         id: 3,
         category: 'logo',
+        title: 'test3',
         image: Realisation3
     }, 
     {
         id: 4,
         category: 'print',
+        title: 'test4',
         image: Realisation4
     },   
     {
         id: 5,
         category: 'logo',
+        title: 'test5',
         image: logo1
     },   
     {
         id: 6,
         category: 'logo',
+        title: 'test6',
         image: logo2
     },   
     {
         id: 7,
         category: 'logo',
+        title: 'test7',
         image: logo3
     },   
     {
         id: 8,
         category: 'logo',
+        title: 'test8',
         image: logo4
     },   
     {
         id: 9,
         category: 'logo',
+        title: 'test9',
         image: logo5
     },   
 ]

@@ -14,6 +14,7 @@ const projects = () => {
   const text = 'We have lots of projects to show you'
 
   const [items, setItems] = useState(Categories)
+  console.log(typeof(Categories))
 
   const FilterItem = (categItem) => {
     const updatedItems = Categories.filter((current) => {
@@ -34,7 +35,7 @@ const projects = () => {
         </div>
 
         <div className="lg:h-[200px] pb-4">
-          <div className="grid grid-rows-5 md:grid-cols-5 justify-items-center ">
+          <div className="grid grid-cols-2 md:grid-cols-5 justify-items-center ">
             <button
               className="hover:scale-110 duration-300"
               onClick={() => setItems(Categories)}
@@ -85,27 +86,31 @@ const projects = () => {
 
         
 
-        <div className="w-4/5 sm:w-full grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 ">
+        <div className="w-4/5 sm:w-full grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 pb-4 ">
           {items.map((iter) => (
             <div key={iter.id}>
               {/* Grid item 1 */}
-              <div key={iter.id} className="">
+              <div key={iter.id} className="group relative ">
                 <Image
-                  className="object-cover shadow-md hover:shadow-lg group container rounded-md flex justify-center mx-auto items-center content-div"
+                  className="object-cover shadow-md hover:shadow-lg container rounded-md flex justify-center items-center content-div"
                   src={iter.image}
                   alt="img"
                 />
 
                 {/*Hover Effect*/}
-                <div className="opacity-0 group-hover:opacity-100 text-center">
-                  <div className="text-2xl font-bold flex  justify-center pt-4"></div>
+                <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-gradient-to-br from-blue-400 to-emerald-400">
+                  {/* <div className="text-2xl font-bold flex  justify-center pt-4"></div> */}
+                  <span className="text-2xl font-bold text-white tracking-wider m-auto">
+                    {iter.title}
+                  </span>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <Footer />
+
+      <Footer text={text}/>
     </div>
   );
 }

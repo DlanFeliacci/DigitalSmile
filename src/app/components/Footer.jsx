@@ -47,7 +47,7 @@ const Footer = ({text}) => {
         </div>
         
         <div className='w-2/12 m-auto pt-11 md:pt-0'>
-            <Image src={RobotHead}/>
+            <Image src={RobotHead} alt='img'/>
         </div> */}
 
         <div className='h-auto grid grid-cols-2'>

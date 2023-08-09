@@ -10,7 +10,7 @@ import Logo from '../../../public/Logo-icon.png'
 const Service = () => {
   return (
     <>
-      <div className="custom-services h-auto max-w-full" loading='lazy'></div>
+      <div className="custom-services h-auto max-w-full" loading="lazy"></div>
       {/* <div className="ml-[100px] w-[250px] md:w-[400px] lg:w-auto h-auto max-w-[600px] relative sm:bottom-[450px] lg:bottom-[500px] xl:bottom-[600px]">
         <p className="text-white font-black sm:leading-[40px] md:leading-[50px] lg:leading-[80px] text-start text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Working with specialists is the requirement for a quality work</p>
       </div> */}
@@ -26,43 +26,123 @@ const Service = () => {
                   What We Offer
                 </h2>
                 <p className="text-base text-body-color text-gray-500">
-                  You can purchase a high quality service with us and let us do the rest, here are our domain of expertise
+                  You can purchase a high quality service with us and let us do
+                  the rest, here are our domain of expertise
                 </p>
               </div>
             </div>
           </div>
           <div className="flex flex-wrap">
-          <ServiceCard
+            <ServiceCard
               title="Graphic Creation"
-              details="Logo Creation , Graphical Charter , Print Label , Packaging... "
-              icon={<Image src={Logo} className="group-hover:animate-wiggle"/>}
+              // details="Logo Creation , Graphical Charter , Print Label , Packaging... "
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Graphical Charter</p>
+                  <p className="hover:scale-110 duration-200">Logo Cretion</p>
+                  <p className="hover:scale-110 duration-200">Packaging</p>
+                  <p className="hover:scale-110 duration-200">Label</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={Logo}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
             <ServiceCard
               title="Printing"
-              details="Digital Printing / Offset Printing / Flexography / Heliogravure..."
-              icon={<Image src={PrinterIcon} className="group-hover:animate-wiggle"/>}
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Digital Printing</p>
+                  <p className="hover:scale-110 duration-200">Offset Printing</p>
+                  <p className="hover:scale-110 duration-200">Flexography</p>
+                  <p className="hover:scale-110 duration-200">Heliogravure</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={PrinterIcon}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
             <ServiceCard
               title="Signage System"
-              details="Advertisment Signage / Road Pannel / Totem / Plaque..."
-              icon={<Image src={Signage} className="group-hover:animate-wiggle"/>}
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Advertisment Signage</p>
+                  <p className="hover:scale-110 duration-200">Road Pannel</p>
+                  <p className="hover:scale-110 duration-200">Totem</p>
+                  <p className="hover:scale-110 duration-200">Plaque</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={Signage}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
             <ServiceCard
               title="Digital Marketing"
-              details="Websites Creation / E-Commerce / Mobile App / Social Media Management..."
-              icon={<Image src={Webdesign} className="group-hover:animate-wiggle"/>}
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Social Media Management</p>
+                  <p className="hover:scale-110 duration-200">Websites Creation</p>
+                  <p className="hover:scale-110 duration-200">E-Commerce</p>
+                  <p className="hover:scale-110 duration-200">Mobile App</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={Webdesign}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
             <ServiceCard
               title="Audiovisual Production"
-              details="Photo Shooting - Video Shooting - Commercial - Business Portrait Photography..."
-              icon={<Image src={Photography} className="group-hover:animate-wiggle"/>}
+              // details="Photo Shooting - Video Shooting - Commercial - Business Portrait Photography..."
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Business Portrait Photography</p>
+                  <p className="hover:scale-110 duration-200">Photo Shooting</p>
+                  <p className="hover:scale-110 duration-200">Video Shooting</p>
+                  <p className="hover:scale-110 duration-200">Commercial</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={Photography}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
             <ServiceCard
               title="Other"
-              details="Lorem - Ipsum - Lorem - Ipsum ..."
-              icon={<Image src={Catalogue} className="group-hover:animate-wiggle"/>}
+              details={
+                <div className="text-center">
+                  <p className="hover:scale-110 duration-200">Empty</p>
+                  <p className="hover:scale-110 duration-200">Empty</p>
+                  <p className="hover:scale-110 duration-200">Empty</p>
+                  <p className="hover:scale-110 duration-200">Empty</p>
+                </div>
+              }
+              icon={
+                <Image
+                  src={Catalogue}
+                  alt="img"
+                  className="group-hover:animate-wiggle"
+                />
+              }
             />
-            
           </div>
         </div>
       </section>
@@ -83,7 +163,7 @@ const ServiceCard = ({ icon, title, details }) => {
             {icon}
           </div>
           <h4 className="text-center text-[#534092] mb-3 text-3xl font-semibold text-dark">{title}</h4>
-          <p className="text-body-color text-justify">{details.split(/\r?\n/)}</p>
+          <div className="text-body-color text-justify font-semibold cursor-pointer">{details}</div>
         </div>
       </div>
     </>

@@ -16,6 +16,7 @@
   }
 }
 
+
 .custom-background {
   background-image: url("../../public/design-cut-left.png");
   background-size: cover;
@@ -31,11 +32,11 @@
   background-position: top;
 }
 
+
 .background-contact {
   background-image: url("../../public/contact-bg-logo1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
   background-position: right;
 }
 
