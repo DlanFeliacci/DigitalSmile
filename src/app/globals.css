@@ -16,6 +16,11 @@
   }
 }
 
+/* .animateCss {
+  position: absolute;
+  top: 100px;
+
+} */
 
 .custom-background {
   background-image: url("../../public/design-cut-left.png");
@@ -34,10 +39,10 @@
 
 
 .background-contact {
-  background-image: url("../../public/contact-bg-logo1.png");
+  background-image: url("../../public/contact-bg-logo1-flipped.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
 }
 
 .background-about {

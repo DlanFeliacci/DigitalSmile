@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <>
     <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
-    <div className="absolute top-20 left-0 ">
-        <Lottie animationData={contactUs} style={{maxWidth: '40%'}}/>
+    <div className="animateCss">
+        <Lottie animationData={contactUs} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
     </div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
         <div className='lg:w-[800px] flex flex-col justify-evenly '>
