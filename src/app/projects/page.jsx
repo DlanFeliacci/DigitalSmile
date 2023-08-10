@@ -90,7 +90,7 @@ const projects = () => {
           {items.map((iter) => (
             <div key={iter.id}>
               {/* Grid item 1 */}
-              <div key={iter.id} className="group relative ">
+              <div key={iter.id} className="group relative">
                 <Image
                   className="object-cover shadow-md hover:shadow-lg container rounded-md flex justify-center items-center content-div"
                   src={iter.image}
@@ -98,7 +98,7 @@ const projects = () => {
                 />
 
                 {/*Hover Effect*/}
-                <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#7BBF43]">
+                <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#7BBF43] duration-300">
                   {/* <div className="text-2xl font-bold flex  justify-center pt-4"></div> */}
                   <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                     {iter.title}

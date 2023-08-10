@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import Image from 'next/image'
 import RobotHead from '../../../public/robot-head.png'
+import Link from 'next/link'
 
 const Footer = ({text}) => {
     
@@ -15,7 +16,12 @@ const Footer = ({text}) => {
             <div className='bg-[#7BBF43] text-center py-8'>
                 <p className='text-3xl font-bold text-[#4F499D]'>Do you need a branding agency?</p>
                 <br />
-                <p className='text-[#4F499D] font-semibold mx-4'>{text}</p>           
+                <p className='text-[#4F499D] font-semibold mx-4'>{text}</p>  
+                <Link href='/contact'>
+                    <button className='bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-800'>
+                        Ask For A Quotation
+                    </button>  
+                </Link>       
             </div>
         </div>
 

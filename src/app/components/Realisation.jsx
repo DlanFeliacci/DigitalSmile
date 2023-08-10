@@ -4,6 +4,8 @@ import Realisation1 from '../../../public/Realisation1.png'
 import Realisation2 from '../../../public/Realisation2.png'
 import Realisation3 from '../../../public/Realisation3.png'
 import Realisation4 from '../../../public/Realisation4.png'
+import logo3 from '../../../public/logo3.jpg'
+import logoDs from '../../../public/logo2-ds.jpg'
 import { IoMdArrowDropdownCircle } from 'react-icons/io';
 
 
@@ -14,51 +16,90 @@ const Realisation = () => {
         <p className='text-4xl font-bold'>Some Of Our Work <IoMdArrowDropdownCircle size={32} className='inline animate-bounce'/></p>
       </div>
         {/* Grid Container */}
-        <div className='grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 sm:max-w-[1100px] gap-2'>
+        <div className='grid grid-cols-1 m-auto sm:grid-cols-2 lg:grid-cols-3'>
           {/* Grid item 1 */}
-          <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center mx-auto items-center content-div' src={Realisation1} alt='img'/>
+          <div className="group relative">
+            <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src={Realisation1} alt='img'/>
             {/*Hover Effect*/}
-            <div className='opacity-0 group-hover:opacity-100 text-center'>
-                <div className="text-2xl font-bold flex  justify-center pt-4">
-                </div>
-              </div>
+            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+              text
+              </span>
+              <div className='w-12 absolute'>
+                <Image src={logoDs} alt='img'/>
+              </div>            
+            </div>
           </div>
         
 
           {/* Grid item 2 */}
-          <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation2} alt='img'/>
+          <div className="group relative">
+            <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src = {Realisation2} alt='img'/>
             {/*Hover Effect*/}
-            <div>
-                <div className="flex justify-center pt-4">
-                
-                </div>
-              </div>
+            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+                text
+              </span>
+              <div className='w-12 absolute'>
+                <Image src={logoDs} alt='img'/>
+              </div>            
+            </div>
           </div>
        
       
             {/* Grid item 3 */}
-            <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation3} alt='img'/>
+            <div className="group relative">
+              <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src = {Realisation3} alt='img'/>
               {/*Hover Effect*/}
-              <div>
-                <div className="flex justify-center pt-4">
-                
-                </div>
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+                text
+                </span>
+                <div className='w-12 absolute'>
+                  <Image src={logoDs} alt='img'/>
+                </div>            
               </div>
             </div>
 
             {/* Grid item 4 */}
-            <div className="">
-            <Image className='max-w-[400px] shadow-md hover:shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div' src = {Realisation4} alt='img'/>
+            <div className="group relative">
+              <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
               {/*Hover Effect*/}
-              <div>
-                <div className="flex justify-center pt-4">
-                
-                </div>
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+                text
+                </span>
+                <div className='w-12 absolute'>
+                  <Image src={logoDs} alt='img'/>
+                </div>            
               </div>
-            </div>
+          </div>
+            {/* Grid item 5 */}
+            <div className="group relative">
+              <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
+              {/*Hover Effect*/}
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+                text
+                </span>
+                <div className='w-12 absolute'>
+                  <Image src={logoDs} alt='img'/>
+                </div>            
+              </div>
+          </div>
+            {/* Grid item 6 */}
+            <div className="group relative">
+              <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
+              {/*Hover Effect*/}
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+                text
+                </span>
+                <div className='w-12 absolute'>
+                  <Image src={logoDs} alt='img'/>
+                </div>            
+              </div>
+          </div>
       </div>
     </div>
   )

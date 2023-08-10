@@ -16,12 +16,6 @@
   }
 }
 
-/* .animateCss {
-  position: absolute;
-  top: 100px;
-
-} */
-
 .custom-background {
   background-image: url("../../public/design-cut-left.png");
   background-size: cover;
@@ -34,6 +28,14 @@
   background-size: cover;
   background-position: center;
   height: 250px;
+  background-position: top;
+}
+
+.content-div-home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
   background-position: top;
 }
 

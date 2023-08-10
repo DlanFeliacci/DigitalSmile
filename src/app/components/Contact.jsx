@@ -10,14 +10,14 @@ const Contact = () => {
   return (
     <>
     <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
-    <div className="animateCss">
+    <div>
         <Lottie animationData={animationData} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
     </div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
-        <div className='lg:w-[800px] flex flex-col justify-evenly '>
+        <div className='lg:w-[700px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">
                 <p className="text-center text-3xl font-bold">Jobs</p> 
-                <p>Notre société est en permanence à la recherche de nouveaux talents. n'hésitez pas à nous envoyer votre candidature avec un lien vers votre site. </p>
+                <p className="leading-7 text-justify">Notre société est en permanence à la recherche de nouveaux talents. n'hésitez pas à nous envoyer votre candidature avec un lien vers votre site. </p>
             </div>
             <div className="flex justify-center">
                 <Image src={logo3} className="mb-10 w-2/5 md:w-4/12 lg:w-4/12" alt='img' />       
