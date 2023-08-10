@@ -38,7 +38,7 @@ const Expertise = () => {
               <Image src={Printer} width='80' alt='img' />
             </div>
             <div className='flex flex-col w-[400px] '>
-              <p className='text-2xl font-semibold text-[#534092] pt-4'>Signage System</p>
+              <p className='text-2xl font-semibold text-[#534092] pt-4'>Printing</p>
               <div className='font-semibold pt-2 leading-7'>
                 <p>Digital Printing</p>
                 <p>Offset Printing</p>
