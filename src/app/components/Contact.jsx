@@ -4,15 +4,14 @@ import logo3 from '../../../public/logo3-ds.jpg'
 import robot from '../../../public/robot.png'
 import Lottie from 'lottie-react'
 import animationData from '../../../public/animation_lkwo4f21.json'
-import textAnimation from '../../../public/textAnimation'
-import contactUs from '../../../public/contactUs'
+// import textAnimation from '../../../public/textAnimation'
 
 const Contact = () => {
   return (
     <>
     <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
     <div className="animateCss">
-        <Lottie animationData={textAnimation} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
+        <Lottie animationData={animationData} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
     </div>
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
         <div className='lg:w-[800px] flex flex-col justify-evenly '>
