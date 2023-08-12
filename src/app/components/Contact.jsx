@@ -4,6 +4,7 @@ import logo3 from '../../../public/logo3-ds.jpg'
 import robot from '../../../public/robot.png'
 import Lottie from 'lottie-react'
 import animationData from '../../../public/animation_lkwo4f21.json'
+import contactUs from '../../../public/ContactUs.json'
 // import textAnimation from '../../../public/textAnimation'
 
 const Contact = () => {
@@ -11,9 +12,9 @@ const Contact = () => {
     <>
     <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
     <div>
-        <Lottie animationData={animationData} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
+        <Lottie animationData={contactUs} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
     </div>
-    <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#F7F7F7]'>
+    <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#ffffff]'>
         <div className='lg:w-[700px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">
                 <p className="text-center text-3xl font-bold">Jobs</p> 
@@ -34,7 +35,7 @@ const Contact = () => {
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
                         Name or Company
                     </label>
-                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" name='name' />
+                    <input className="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" name='name' />
                 </div>
                 {/* <div className="w-full md:w-1/2 px-3">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">

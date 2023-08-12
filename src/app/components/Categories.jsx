@@ -18,7 +18,7 @@ import logo5 from '../../../public/logo5.png'
     {
         id: 2,
         category: 'web',
-        title: 'test2',
+        title: 'flyer for',
         image: Realisation2
     }, 
     {

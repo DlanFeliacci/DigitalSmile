@@ -25,7 +25,7 @@ const Realisation = () => {
               <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
               text
               </span>
-              <div className='w-12 absolute'>
+              <div className='w-12 absolute m-2'>
                 <Image src={logoDs} alt='img'/>
               </div>            
             </div>
@@ -40,7 +40,7 @@ const Realisation = () => {
               <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
               </span>
-              <div className='w-12 absolute'>
+              <div className='w-12 absolute m-2'>
                 <Image src={logoDs} alt='img'/>
               </div>            
             </div>
@@ -55,7 +55,7 @@ const Realisation = () => {
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
-                <div className='w-12 absolute'>
+                <div className='w-12 absolute m-2'>
                   <Image src={logoDs} alt='img'/>
                 </div>            
               </div>
@@ -69,7 +69,7 @@ const Realisation = () => {
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
-                <div className='w-12 absolute'>
+                <div className='w-12 absolute m-2'>
                   <Image src={logoDs} alt='img'/>
                 </div>            
               </div>
@@ -82,7 +82,7 @@ const Realisation = () => {
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
-                <div className='w-12 absolute'>
+                <div className='w-12 absolute m-2'>
                   <Image src={logoDs} alt='img'/>
                 </div>            
               </div>
@@ -95,7 +95,7 @@ const Realisation = () => {
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
-                <div className='w-12 absolute'>
+                <div className='w-12 absolute m-2'>
                   <Image src={logoDs} alt='img'/>
                 </div>            
               </div>

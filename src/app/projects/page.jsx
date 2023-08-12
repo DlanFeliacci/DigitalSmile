@@ -8,7 +8,7 @@ import printGreen from '../../../public/printGreen.png'
 import logoGreen from '../../../public/logoGreen.png'
 import eyeblue from '../../../public/eyeblue.png'
 import Categories from '../components/Categories'
-import logoDs from '../../../public/logo2-ds.jpg'
+import logoDs from '../../../public/logodigitalsmile.svg'
 
 const projects = () => {
 
@@ -98,12 +98,12 @@ const projects = () => {
                 />
 
                 {/*Hover Effect*/}
-                <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#7BBF43] duration-300">
+                <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0  bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-yellow-200 via-green-200 to-green-300 duration-300">
                   {/* <div className="text-2xl font-bold flex  justify-center pt-4"></div> */}
                   <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                     {iter.title}
                   </span>
-                  <div className='w-10 absolute'>
+                  <div className='w-10 absolute m-2'>
                     <Image src={logoDs} alt={iter.title}/>
                   </div>
                   
