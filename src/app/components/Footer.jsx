@@ -1,31 +1,38 @@
-import { AiOutlineLinkedin } from 'react-icons/ai'
-import { AiOutlineFacebook } from 'react-icons/ai'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillTelephoneFill } from 'react-icons/bs'
 import Image from 'next/image'
 import RobotHead from '../../../public/robot-head.png'
 import Link from 'next/link'
+import facebook from '../../../public/facebook.png'
+import linkedin from '../../../public/linkedin.png'
+import mail from '../../../public/email.png'
+import behance from '../../../public/behance.png'
+// import gear from '../../../public/gear.png'
+import ScrollToTop from './ScrollToTop'
+import LogoDigitalSmile from '../../../public/logo-digital-smile.png'
+import phone from '../../../public/phone.png'
+import localisation from '../../../public/localisation.png'
+
 
 const Footer = ({text}) => {
     
     
-
   return (
-    <main className='w-full h-full'>
-        <div className='h-auto'>
-            <div className='bg-[#7BBF43] text-center py-8'>
-                <p className='text-3xl font-bold text-[#4F499D]'>Do you need a branding agency?</p>
-                <br />
-                <p className='text-[#4F499D] font-semibold mx-4'>{text}</p>  
-                <Link href='/contact'>
-                    <button className='bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-800'>
-                        Ask For A Quotation
-                    </button>  
-                </Link>       
-            </div>
+    <main className="w-full h-full">
+      <div className="h-auto">
+        <div className="bg-[#7BBF43] text-center py-8">
+          <p className="text-3xl font-bold text-[#4F499D]">
+            Do you need a branding agency?
+          </p>
+          <br />
+          <p className="text-[#4F499D] font-semibold mx-4">{text}</p>
+          <Link href="/contact">
+            <button className="bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-600 active:scale-90">
+              <h2>Ask For A Quotation</h2>
+            </button>
+          </Link>
         </div>
+      </div>
 
-        {/* <div className='w-4/5 md:h-[100px] grid grid-rows-3 md:grid-cols-3 m-auto content-center text-center mt-6 gap-y-4'>
+      {/* <div className='w-4/5 md:h-[100px] grid grid-rows-3 md:grid-cols-3 m-auto content-center text-center mt-6 gap-y-4'>
             <div className='flex flex-col gap-y-2'>
                 <p className='text-[#4F499D] font-bold text-2xl'>Appelez Nous</p>
                 <p className='font-semibold'>+213 542 05 41 23</p>
@@ -55,44 +62,81 @@ const Footer = ({text}) => {
         <div className='w-2/12 m-auto pt-11 md:pt-0'>
             <Image src={RobotHead} alt='img'/>
         </div> */}
+      <div className='h-[200px] flex items-center'>
+        <div className=' mx-auto w-3/4 p-0.5 bg-[#715db2]'>
 
-        <div className='h-auto grid grid-cols-2'>
-            <div className='items-center lg:mr-6 lg:w-5/12 m-auto md:pt-0'>
-                <Image src={RobotHead} alt='img'/>
-            </div> 
-            <div className='grid gird-rows-3 items-center justify-start lg:ml-[100px]'>
-                <div className='lg:flex'>
-                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'> Call us on: <BsFillTelephoneFill className='inline'/>&nbsp; </p>
-                    <p className='font-semibold tracking-wilder text-md text-center'>+213 542 05 41 23</p>
-                </div>
-                <div className='lg:flex'>
-                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'>Digital Smile Dz &nbsp; </p>
-                    <p className='font-semibold tracking-wilder text-md text-center'>Algiers, Algeria</p>
-                </div>
-                <div className='lg:flex'>
-                    <p className='text-[#4F499D] font-bold text-md tracking-widest text-center'>Follow us &nbsp;</p>
-                    <div className='flex justify-evenly lg:gap-4'>
-                        <a href='https://www.linkedin.com/company/98183946/' target="_blank">
-                            <AiOutlineLinkedin size={35}/>
-                        </a>
-                        <a href='https://www.facebook.com/profile.php?id=100087374435338' target="_blank">
-                            <AiOutlineFacebook size={35}/>
-                        </a>
-                        <a href='' target="_blank">
-                            <AiOutlineMail size={35}/>
-                        </a>
-                    </div>
-                </div>
+        </div>
+      </div>
+      <div className="w-full h-auto bg-gray-50 pt-20">
+        <div className="w-full md:flex md:justify-evenly p-12">
+          <div className="flex-col">
+            <div className="w-[200px]">
+              <Image src={LogoDigitalSmile} />
             </div>
+            <div className="grid gird-rows-2 items-center justify-start ml-4 gap-2">
+              <div className="flex">
+                <div className="w-[30px]">
+                  <Image src={phone} />
+                </div>
+                <p className="font-semibold tracking-wilder text-md text-center">
+                &nbsp;+213 542 05 41 23
+                </p>
+              </div>
+              <div className="flex">
+                <div className="w-[30px]">
+                  <Image src={localisation} />
+                </div>
+                <p className="font-semibold tracking-wilder text-md text-center">
+                &nbsp;Bab Ezzouar, Algiers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="w-4/12 hidden md:block md:w-1/6 m-auto md:pt-0">
+            <Image src={RobotHead} alt="img" />
+          </div>
+          <div className="py-8 flex justify-center items-center md:justify-between gap-4">
+            <a
+              href="https://www.linkedin.com/company/98183946/"
+              target="_blank"
+            >
+              <div className="w-10 hover:animate-bounce">
+                <Image src={linkedin} alt="linkedin" />
+              </div>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087374435338"
+              target="_blank"
+            >
+              <div className="w-10 hover:animate-bounce">
+                <Image src={facebook} alt="fb" />
+              </div>
+            </a>
+            <a href="" target="_blank">
+              <div className="w-10 hover:animate-bounce">
+                <Image src={mail} alt="email" />
+              </div>
+            </a>
+            <a
+              href="https://www.behance.net/yahiaouiarezki?tracking_source=search_projects%7Cyahiaoui+arezki"
+              target="_blank"
+            >
+              <div className="w-10 hover:animate-bounce">
+                <Image src={behance} alt="behance" />
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
 
-
-
-        <div className='flex items-center justify-center h-12 text-center p-1 text-gray-500 text-sm bg-gray-100'>
-            <p className='flex justify-center tracking-widest w-3/6 font-semibold text-md text-justify text-md'>&#64;2023 Digital Smile</p>
-        </div>
+      <div className="flex items-center justify-center h-12 text-center p-1 text-gray-500 text-sm bg-gray-50">
+        <p className="flex justify-center ml-11 tracking-widest w-3/6 font-semibold text-md text-justify text-md">
+          &#64;2023 Digital Smile
+        </p>
+      </div>
+      <ScrollToTop />
     </main>
-  )
+  );
 }
 
 export default Footer

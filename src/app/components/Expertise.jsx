@@ -25,10 +25,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Graphic Creation</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Logo Creation</p>
-                <p>Graphical Charter</p>
-                <p>Print Label</p>
-                <p>Packaging</p>
+                <p className='transform transition-all hover:translate-x-4'>Logo Creation</p>
+                <p className='transform transition-all hover:translate-x-4'>Graphical Charter</p>
+                <p className='transform transition-all hover:translate-x-4'>Print Label</p>
+                <p className='transform transition-all hover:translate-x-4'>Packaging</p>
               </div>
             </div>
           </div>
@@ -40,10 +40,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Printing</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Digital Printing</p>
-                <p>Offset Printing</p>
-                <p>Flexography</p>
-                <p>Heliogravure</p>
+                <p className='transform transition-all hover:translate-x-4'>Digital Printing</p>
+                <p className='transform transition-all hover:translate-x-4'>Offset Printing</p>
+                <p className='transform transition-all hover:translate-x-4'>Flexography</p>
+                <p className='transform transition-all hover:translate-x-4'>Heliogravure</p>
               </div>
             </div>
           </div>
@@ -55,10 +55,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Signage System</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Advertisement Signage</p>
-                <p>Road Pannel</p>
-                <p>Totem</p>
-                <p>Plaque</p>
+                <p className='transform transition-all hover:translate-x-4'>Advertisement Signage</p>
+                <p className='transform transition-all hover:translate-x-4'>Road Pannel</p>
+                <p className='transform transition-all hover:translate-x-4'>Totem</p>
+                <p className='transform transition-all hover:translate-x-4'>Plaque</p>
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px]'>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Digital Marketing</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Websites Creation</p>
-                <p>E-Commerce</p>
-                <p>Mobile Application</p>
-                <p>Social Media Management</p>
+                <p className='transform transition-all hover:translate-x-4'>Websites Creation</p>
+                <p className='transform transition-all hover:translate-x-4'>E-Commerce</p>
+                <p className='transform transition-all hover:translate-x-4'>Mobile Application</p>
+                <p className='transform transition-all hover:translate-x-4'>Social Media Management</p>
               </div>
             </div>
           </div>
@@ -85,10 +85,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Audiovisual Production</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Photo Shooting</p>
-                <p>Video Shooting</p>
-                <p>Commercial</p>
-                <p>Business Portrait Photography</p>
+                <p className='transform transition-all hover:translate-x-4'>Photo Shooting</p>
+                <p className='transform transition-all hover:translate-x-4'>Video Shooting</p>
+                <p className='transform transition-all hover:translate-x-4'>Commercial</p>
+                <p className='transform transition-all hover:translate-x-4'>Business Portrait Photography</p>
               </div>
             </div>
           </div>
@@ -100,10 +100,10 @@ const Expertise = () => {
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Other</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p>Lorem</p>
-                <p>Lorem</p>
-                <p>Lorem</p>
-                <p>Lorem</p>
+                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
+                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
+                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
+                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ const Realisation = () => {
           <div className="group relative">
             <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src={Realisation1} alt='img'/>
             {/*Hover Effect*/}
-            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
               <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
               text
               </span>
@@ -36,7 +36,7 @@ const Realisation = () => {
           <div className="group relative">
             <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src = {Realisation2} alt='img'/>
             {/*Hover Effect*/}
-            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+            <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
               <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
               </span>
@@ -51,7 +51,7 @@ const Realisation = () => {
             <div className="group relative">
               <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src = {Realisation3} alt='img'/>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
@@ -65,7 +65,7 @@ const Realisation = () => {
             <div className="group relative">
               <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
@@ -78,7 +78,7 @@ const Realisation = () => {
             <div className="group relative">
               <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>
@@ -91,7 +91,7 @@ const Realisation = () => {
             <div className="group relative">
               <Image className='object-cover shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {logo3} alt='img'/>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-100 top-0 bottom-0 bg-[#534092] duration-300">
+              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
                 text
                 </span>

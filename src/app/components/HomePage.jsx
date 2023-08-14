@@ -7,7 +7,7 @@ import GrayDiagonalUp from '../components/GrayDiagonalUp'
 
 const HomePage = () => {
 
-  const text=`Conseil en communication, branding, campagne de pub, logo, charte graphique, packaging, catalogue, web design... Nous vous accompagnons sur votre projet.`
+  const text=`Consulting in communication, branding, advertising campaign, logo, graphic charter, packaging, catalog, web design... We support you on your project.`
 
   return (
     <>
