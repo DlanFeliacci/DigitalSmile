@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import RobotHead from '../../../public/robot-head.png'
 import Link from 'next/link'
@@ -10,6 +11,9 @@ import ScrollToTop from './ScrollToTop'
 import LogoDigitalSmile from '../../../public/logo-digital-smile.png'
 import phone from '../../../public/phone.png'
 import localisation from '../../../public/localisation.png'
+import decoration from '../../../public/decoration.png'
+import Lottie from 'lottie-react'
+import animationRobot from '../../../public/animation_robot.json'
 
 
 const Footer = ({text}) => {
@@ -62,21 +66,21 @@ const Footer = ({text}) => {
         <div className='w-2/12 m-auto pt-11 md:pt-0'>
             <Image src={RobotHead} alt='img'/>
         </div> */}
-      <div className='h-[200px] flex items-center'>
-        <div className=' mx-auto w-3/4 p-0.5 bg-[#715db2]'>
-
+      <div className='h-auto flex items-cente py-12 bg-gray-50'>
+        <div className='w-2/3 sm:w-1/3 m-auto'>
+          <Image src={decoration} alt='decoration'/>
         </div>
       </div>
-      <div className="w-full h-auto bg-gray-50 pt-20">
+      <div className="w-full h-auto bg-gray-50">
         <div className="w-full md:flex md:justify-evenly p-12">
           <div className="flex-col">
-            <div className="w-[200px]">
-              <Image src={LogoDigitalSmile} />
+            <div className="w-[250px]">
+              <Image src={LogoDigitalSmile} alt='LogoDs'/>
             </div>
-            <div className="grid gird-rows-2 items-center justify-start ml-4 gap-2">
+            <div className="grid gird-rows-2 items-center justify-start ml-4 gap-3 pt-2">
               <div className="flex">
                 <div className="w-[30px]">
-                  <Image src={phone} />
+                  <Image src={phone} alt='phone'/>
                 </div>
                 <p className="font-semibold tracking-wilder text-md text-center">
                 &nbsp;+213 542 05 41 23
@@ -84,7 +88,7 @@ const Footer = ({text}) => {
               </div>
               <div className="flex">
                 <div className="w-[30px]">
-                  <Image src={localisation} />
+                  <Image src={localisation} alt='location'/>
                 </div>
                 <p className="font-semibold tracking-wilder text-md text-center">
                 &nbsp;Bab Ezzouar, Algiers.
@@ -92,8 +96,11 @@ const Footer = ({text}) => {
               </div>
             </div>
           </div>
-          <div className="w-4/12 hidden md:block md:w-1/6 m-auto md:pt-0">
-            <Image src={RobotHead} alt="img" />
+          <div className="w-4/12 hidden md:block md:w-1/6 m-auto md:pt-0  justify-start">
+            {/* <Image src={RobotHead} alt="img" /> */}
+            <div className='flex justify-center'>
+              <Lottie animationData={animationRobot} style={{maxWidth: '60%'}} />
+            </div> 
           </div>
           <div className="py-8 flex justify-center items-center md:justify-between gap-4">
             <a

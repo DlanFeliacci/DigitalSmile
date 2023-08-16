@@ -11,6 +11,7 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.2",
     "@next/font": "^13.4.9",
+    "@react-google-maps/api": "^2.19.2",
     "autoprefixer": "10.4.14",
     "framer-motion": "^10.13.1",
     "i18next": "^23.4.1",

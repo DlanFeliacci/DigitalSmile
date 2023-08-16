@@ -1,10 +1,11 @@
-'use client'
+
 import Image from "next/image"
 import robot from '../../../public/robot.png'
 import Lottie from 'lottie-react'
 import animationData from '../../../public/animation_lkwo4f21.json'
 import contactUs from '../../../public/ContactUs.json'
 import Form from './Form'
+import Map from './Map'
 
 
 // import textAnimation from '../../../public/textAnimation'
@@ -17,6 +18,7 @@ const Contact = () => {
         <Lottie animationData={contactUs} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
     </div> */}
     <Form />
+    <Map />
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#ffffff] pt-[500px] sm:pt-[200px]'>
         <div className='lg:w-[700px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">

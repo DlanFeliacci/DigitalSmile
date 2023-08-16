@@ -1,11 +1,15 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import Logo from '../../../public/logo-digital-smile.png'
 import Image from 'next/image'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const navbar = () => {
+
+    // variable to know in what particular routing we are
+    const currentRoute = usePathname();
 
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
@@ -22,28 +26,28 @@ const navbar = () => {
             <div className="lg:mr-24  text-black">
                 <ul className="hidden md:flex font-bold md:space-x-6 group">
                     <Link href='/'>
-                        <li className="hover:text-[#7BBF43] duration-300 p-2"> 
-                        Home
+                        <li className={currentRoute === '/' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}> 
+                            Home
                         </li>
                     </Link> 
                     <Link href='/projects'>
-                        <li className="hover:text-[#7BBF43] duration-300 p-2">
+                        <li  className={currentRoute === '/projects' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
                             Projects
                         </li>
                     </Link> 
                     <Link href='/services'>
-                        <li className="hover:text-[#7BBF43] duration-300 p-2">
+                        <li  className={currentRoute === '/services' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
                             Services
                         </li>
                     </Link>
                     <Link href ='/about'>
-                        <li className="hover:text-[#7BBF43] duration-300 p-2">
+                        <li  className={currentRoute === '/about' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
                             About
                         </li>
                     </Link> 
                     <Link href='/contact'>
-                        <li className="hover:text-white duration-300 p-2">
-                            <span className='bg-[#7BBF43] hover:bg-[#534092] text-white duration-300 p-2 px-4 rounded-3xl'>Contact</span>  
+                        <li  className={currentRoute === '/contact' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
+                            Contact
                         </li>
                     </Link> 
                 </ul>
