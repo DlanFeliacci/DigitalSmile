@@ -7,7 +7,7 @@ const Form = () => {
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3 mb-6 md:mb-0">
                     <p className='text-3xl font-bold'>
-                        Project in mind? Question? <br />
+                        Project in mind? <br /> Question? <br />
                     </p>
                     <p className='pb-6 text-gray-400'>Get in touche with us</p>
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">

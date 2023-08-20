@@ -16,6 +16,11 @@
   }
 }
 
+.map-container {
+  width: 1000px;
+  height: 400px;
+}
+
 .custom-background {
   background-image: url("../../public/design-cut-left.png");
   background-size: cover;

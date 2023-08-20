@@ -1,49 +1,39 @@
-'use client'
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { useMemo } from 'react'
+import { GoogleMap, useLoadScript , MarkerF } from '@react-google-maps/api'
+import Lottie from 'lottie-react'
+import mapLoading from '../../../public/animation_mapLoading.json'
+import animationLoading from '../../../public/animation_loading'
 
-const containerStyle = {
-  width: '400px',
-  height: '400px'
-};
 
-const center = {
-  lat: -3.745,
-  lng: -38.523
-};
+const Map = () => {
 
-function MyComponent() {
-  const { isLoaded } = useJsApiLoader({
-    id: 'google-map-script',
-    googleMapsApiKey: "YOUR_API_KEY"
-  })
+    const center = useMemo(() => ({ lat: 36.715692, lng: 3.197167}), [])
 
-  const [map, setMap] = React.useState(null)
-
-  const onLoad = React.useCallback(function callback(map) {
-    // This is just an example of getting and using the map instance!!! don't just blindly copy!
-    const bounds = new window.google.maps.LatLngBounds(center);
-    map.fitBounds(bounds);
-
-    setMap(map)
-  }, [])
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null)
-  }, [])
+    const { isLoaded } = useLoadScript({
+      id: 'google-map-script',
+      googleMapApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    })
 
   return isLoaded ? (
+    <div className='flex  flex-col justify-center items-center p-10'>
+       <div className='w-[400px] p-10 m-auto'>
+          <Lottie animationData={mapLoading}/>
+        </div>
       <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={10}
-        onLoad={onLoad}
-        onUnmount={onUnmount}
+      zoom={16}
+      center ={center}
+      mapContainerClassName='map-container'
       >
-        { /* Child components, such as markers, info windows, etc. */ }
-        <></>
+          <MarkerF position={center}/>
+
       </GoogleMap>
-  ) : <></>
+    </div>
+    
+  ) : (
+        <div className='w-[400px] p-10 m-auto'>
+          <Lottie animationData={animationLoading}/>
+        </div>
+  )
 }
 
-export default React.memo(MyComponent)
+export default Map

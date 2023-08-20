@@ -14,11 +14,7 @@ const Contact = () => {
   return (
     <>
     <div className='background-contact max-w-full h-[60vh] md:h-[100vh]'></div>
-    {/* <div>
-        <Lottie animationData={contactUs} style={{maxWidth: '40%'}} className="absolute top-[64px] right-0"/>
-    </div> */}
     <Form />
-    <Map />
     <div className='flex flex-col sm:flex-row justify-evenly py-[60px] p-2 bg-[#ffffff] pt-[500px] sm:pt-[200px]'>
         <div className='lg:w-[700px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">
@@ -28,9 +24,9 @@ const Contact = () => {
         </div>
         {/* <div className="hidden lg:block md:w-[150px] md:h-[200px] relative top-[250px] right-[50px] ">
             <Image src={robot} alt='img' />
-        </div> */}
-        
+        </div> */}  
     </div>
+    <Map />
     </>
     
     
