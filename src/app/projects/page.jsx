@@ -86,7 +86,7 @@ const projects = () => {
 
         
 
-        <div className="w-4/5 sm:w-full grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 pb-4 ">
+        <div className="w-4/5 sm:w-full grid grid-cols-1 m-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 pb-4">
           {items.map((iter) => (
             <div key={iter.id}>
               {/* Grid item 1 */}

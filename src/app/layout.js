@@ -1,9 +1,11 @@
 import './globals.css'
-import { Inter } from '@next/font/google'
+import { Dancing_Script } from '@next/font/google'
 import Navbar from '../../src/app/components/Navbar'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const dancingScript = Dancing_Script({ 
+  subsets: ['latin'], 
+})
 
 
 export const metadata = {
@@ -20,7 +22,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
       </head>
-      <body className={inter.className}>
+      <body className={dancingScript.className}>
         <Navbar />  
         {children}
       </body>

@@ -72,7 +72,7 @@ const Footer = ({text}) => {
         </div>
       </div>
       <div className="w-full h-auto bg-gray-50">
-        <div className="w-full md:flex md:justify-evenly p-12">
+        <div className="w-5/6 md:flex md:justify-center p-12 m-auto">
           <div className="flex-col">
             <div className="w-[250px]">
               <Image src={LogoDigitalSmile} alt='LogoDs'/>
