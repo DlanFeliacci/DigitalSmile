@@ -1,10 +1,11 @@
 import './globals.css'
-import { Dancing_Script } from '@next/font/google'
+import { Signika_Negative } from '@next/font/google'
 import Navbar from '../../src/app/components/Navbar'
 
 
-const dancingScript = Dancing_Script({ 
-  subsets: ['latin'], 
+const signikaNegative = Signika_Negative({ 
+  weight: '400',
+  subsets: ['latin'],
 })
 
 
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
       </head>
-      <body className={dancingScript.className}>
+      <body className={signikaNegative.className}>
         <Navbar />  
         {children}
       </body>

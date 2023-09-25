@@ -5,6 +5,7 @@ import Printer from '../../../public/printer.png'
 import Photography from '../../../public/Photography-icon.png'
 import Logo from '../../../public/Logo-icon.png'
 import Signage from '../../../public/signage.png'
+import Blue from '../../../public/blue.png'
 
 
 const Expertise = () => {
@@ -95,15 +96,15 @@ const Expertise = () => {
           
           <div className='flex flex-row md:mr-auto '>
             <div className='pr-2'>
-              <Image src={Printer} width='80' alt='img'/>
+              <Image src={Blue} width='80' alt='img'/>
             </div>
             <div className='flex flex-col w-[400px] '>
               <p className='text-2xl font-semibold text-[#534092] pt-4'>Other</p>
               <div className='font-semibold pt-2 leading-7'>
-                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
-                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
-                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
-                <p className='transform transition-all hover:translate-x-4'>Lorem</p>
+                <p className='transform transition-all hover:translate-x-4'>soon...</p>
+                <p className='transform transition-all hover:translate-x-4'>soon...</p>
+                <p className='transform transition-all hover:translate-x-4'>soon...</p>
+                <p className='transform transition-all hover:translate-x-4'>soon...</p>
               </div>
             </div>
           </div>

@@ -138,7 +138,7 @@ const Footer = ({text}) => {
 
       <div className="flex items-center justify-center h-12 text-center p-1 text-gray-500 text-sm bg-gray-50">
         <p className="flex justify-center ml-11 tracking-widest w-3/6 font-semibold text-md text-justify text-md">
-          &#64;2023 Digital Smile
+          &#64;2023 Built by Adlene Feliachi
         </p>
       </div>
       <ScrollToTop />
