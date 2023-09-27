@@ -67,27 +67,27 @@ const navbar = () => {
                         : "md:hidden absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#85fea1] to-[#023b1f] flex flex-col justify-center items-center text-white"
                     }
                     >
-                    <Link href="/" smooth={true} duration={500}>
+                    <Link href="/"  duration={500}>
                         <li onClick={handleClick} className="py-6 text-4xl">
                             Home
                         </li>
                     </Link>
-                    <Link href="projects" smooth={true} duration={500}>
+                    <Link href="projects"  duration={500}>
                         <li onClick={handleClick} className="py-6 text-4xl">
                             Projects
                         </li>
                     </Link>
-                    <Link href="services" smooth={true} duration={500}>
+                    <Link href="services"  duration={500}>
                         <li onClick={handleClick} className="py-6 text-4xl">
                             Services
                         </li>
                     </Link>
-                    <Link href="about" smooth={true} duration={500}>
+                    <Link href="about"  duration={500}>
                         <li onClick={handleClick} className="py-6 text-4xl">
                             About
                         </li>
                     </Link>
-                    <Link href="contact" smooth={true} duration={500}>
+                    <Link href="contact"  duration={500}>
                         <li onClick={handleClick} className="py-6 text-4xl">
                             Contact
                         </li>

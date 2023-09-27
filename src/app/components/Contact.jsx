@@ -19,7 +19,7 @@ const Contact = () => {
         <div className='lg:w-[700px] flex flex-col justify-evenly '>
             <div className="text-center w-3/4 mx-auto pb-4">
                 <p className="text-center text-3xl font-bold">Jobs</p> 
-                <p className="leading-7 text-justify">Notre société est en permanence à la recherche de nouveaux talents. n'hésitez pas à nous envoyer votre candidature avec un lien vers votre site. </p>
+                <p className="leading-7 text-justify">Our company is constantly looking for new talents. do not hesitate to send us your application with a link to your website. </p>
             </div>
         </div>
         {/* <div className="hidden lg:block md:w-[150px] md:h-[200px] relative top-[250px] right-[50px] ">

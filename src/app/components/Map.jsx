@@ -16,7 +16,7 @@ const Map = () => {
 
   return isLoaded ? (
     <div className='flex  flex-col justify-center items-center p-10'>
-       <div className='w-[400px] p-10 m-auto'>
+       <div className='w-[300px] p-10 m-auto'>
           <Lottie animationData={mapLoading}/>
         </div>
       <GoogleMap

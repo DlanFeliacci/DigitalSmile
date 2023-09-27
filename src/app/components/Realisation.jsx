@@ -21,12 +21,13 @@ const Realisation = () => {
       </div>
         {/* Grid Container */}
         <div className='grid grid-cols-1 m-auto sm:grid-cols-2 lg:grid-cols-3'>
+
           {/* Grid item 1 */}
           <div className="group relative">
             <Image className='object-cover shadow-md hover:shadow-lg container flex justify-center items-center content-div-home' src={Realisation1} alt='img'/>
             {/*Hover Effect*/}
             <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+              <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-105 duration-300">
               Project 1
               </span>
               <div className='w-12 absolute m-2'>
