@@ -14,8 +14,8 @@ const Service = () => {
       {/* <div className="ml-[100px] w-[250px] md:w-[400px] lg:w-auto h-auto max-w-[600px] relative sm:bottom-[450px] lg:bottom-[500px] xl:bottom-[600px]">
         <p className="text-white font-black sm:leading-[40px] md:leading-[50px] lg:leading-[80px] text-start text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Working with specialists is the requirement for a quality work</p>
       </div> */}
-      <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl md:text-5xl font-bold lg:pb-[100px] md:leading-[60px]">
-        Working With Specialists Is The Requirement For A Quality Work.
+      <div className="bg-black opacity-50 text-center absolute top-[65%] left-1/2 transform -translate-x-1/2 -translate-y-1/2  p-4 md:leading-[60px]  rounded-lg">
+        <p className="text-white text-3xl md:text-5xl font-bold">Working With Specialists Is The Requirement For A Quality Work.</p>
       </div>
       <section className="flex justify-center pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container">

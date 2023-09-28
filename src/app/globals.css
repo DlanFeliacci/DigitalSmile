@@ -21,12 +21,12 @@
   height: 400px;
 }
 
-.custom-background {
+/* .custom-background {
   background-image: url("../../public/design-cut-left.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
+} */
 
 .content-div {
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 }
 
 .custom-services {
-  background-image: url("../../public/forest-services.png");
+  background-image: url("../../public/services.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;

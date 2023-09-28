@@ -35,7 +35,7 @@ const Form = () => {
               id="grid-first-name"
               type="text"
               name="tel"
-              maxlength="11"
+              maxLength="11"
             />
 
             <div className="flex flex-wrap -mx-3">
