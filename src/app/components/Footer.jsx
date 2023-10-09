@@ -11,7 +11,6 @@ import ScrollToTop from './ScrollToTop'
 import LogoDigitalSmile from '../../../public/logo-digital-smile.png'
 import phone from '../../../public/phone.png'
 import localisation from '../../../public/localisation.png'
-import decoration from '../../../public/decoration.png'
 import Lottie from 'lottie-react'
 import animationRobot from '../../../public/animation_robot.json'
 
@@ -29,7 +28,7 @@ const Footer = ({text}) => {
           <br />
           <p className="text-[#4F499D] font-semibold mx-4">{text}</p>
           <Link href="/contact">
-            <button className="bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-600 active:scale-90">
+            <button className="bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-600 rounded-md active:scale-90">
               <h2>Ask For A Quotation</h2>
             </button>
           </Link>
@@ -66,15 +65,11 @@ const Footer = ({text}) => {
         <div className='w-2/12 m-auto pt-11 md:pt-0'>
             <Image src={RobotHead} alt='img'/>
         </div> */}
-      <div className='h-auto flex items-cente py-12 bg-gray-50'>
-        <div className='w-2/3 sm:w-1/3 m-auto'>
-          <Image src={decoration} alt='decoration'/>
-        </div>
-      </div>
+
       <div className="w-full h-auto bg-gray-50">
         <div className="w-5/6 md:flex md:justify-center p-12 m-auto">
           <div className="flex-col">
-            <div className="w-[250px]">
+            <div className="w-[200px]">
               <Image src={LogoDigitalSmile} alt='LogoDs'/>
             </div>
             <div className="grid gird-rows-2 items-center justify-start ml-4 gap-3 pt-2">

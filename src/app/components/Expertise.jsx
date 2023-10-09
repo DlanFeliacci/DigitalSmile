@@ -88,7 +88,7 @@ const Expertise = () => {
               <div className='font-semibold pt-2 leading-7'>
                 <p className='transform transition-all hover:translate-x-4'>Photo Shooting</p>
                 <p className='transform transition-all hover:translate-x-4'>Video Shooting</p>
-                <p className='transform transition-all hover:translate-x-4'>Commercial</p>
+                <p className='transform transition-all hover:translate-x-4'>Corporate Film</p>
                 <p className='transform transition-all hover:translate-x-4'>Business Portrait Photography</p>
               </div>
             </div>

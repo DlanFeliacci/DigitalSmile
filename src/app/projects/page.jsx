@@ -6,6 +6,7 @@ import photograpahyGreen from '../../../public/photographyGreen.png'
 import webdesignGreen from '../../../public/webdesignGreen.png'
 import printGreen from '../../../public/printGreen.png'
 import logoGreen from '../../../public/logoGreen.png'
+import signageGreen from '../../../public/SignageGreen.png'
 import eyeblue from '../../../public/eyeblue.png'
 import Categories from '../components/Categories'
 import logoDs from '../../../public/logodigitalsmile.svg'
@@ -35,50 +36,59 @@ const projects = () => {
         </div>
 
         <div className="lg:h-[200px] pb-4">
-          <div className="grid grid-cols-2 md:grid-cols-5 justify-items-center ">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-y-8 justify-items-center py-4">
             <button
-              className="hover:scale-110 duration-300"
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
               onClick={() => setItems(Categories)}
             >
-              <Image src={eyeblue} width={100} alt="img" />
+              <Image src={eyeblue} width={80} alt="img" />
               <div className="text-center font-bold py-2 text-[#534092]">
                 SEE ALL
               </div>
             </button>
             <button
-              className="hover:scale-110 duration-300"
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
               onClick={() => FilterItem("photo")}
             >
-              <Image src={photograpahyGreen} width={120} alt="img" />
+              <Image src={photograpahyGreen} width={100} alt="img" />
               <div className="text-center font-bold py-2 text-[#534092]">
                 PHOTO
               </div>
             </button>
             <button
-              className="hover:scale-110 duration-300"
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
               onClick={() => FilterItem("logo")}
             >
-              <Image src={logoGreen} width={120} alt="img" />
+              <Image src={logoGreen} width={100} alt="img" />
               <div className="text-center font-bold py-2 text-[#534092]">
                 LOGO
               </div>
             </button>
             <button
-              className="hover:scale-110 duration-300"
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
               onClick={() => FilterItem("web")}
             >
-              <Image src={webdesignGreen} width={120} alt="img" />
+              <Image src={webdesignGreen} width={100} alt="img" />
               <div className="text-center font-bold py-2 text-[#534092]">
                 WEB
               </div>
             </button>
             <button
-              className="hover:scale-110 duration-300"
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
               onClick={() => FilterItem("print")}
             >
-              <Image src={printGreen} width={120} alt="img" />
+              <Image src={printGreen} width={100} alt="img" />
               <div className="text-center font-bold py-2 text-[#534092]">
                 PRINT
+              </div>
+            </button>
+            <button
+              className="hover:scale-110 duration-300 focus:border-b-2 border-[#534092]"
+              onClick={() => FilterItem("signage")}
+            >
+              <Image src={signageGreen} width={100} alt="img" />
+              <div className="text-center font-bold py-2 text-[#534092]">
+                SIGNAGE
               </div>
             </button>
           </div>
