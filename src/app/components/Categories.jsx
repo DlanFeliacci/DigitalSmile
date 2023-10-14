@@ -63,7 +63,7 @@ import signage9 from '../../../public/SIGNAGES/signage9.jpg'
     {
         id: 2,
         category: 'photo',
-        title: 'photo',
+        title: 'Photo 1',
         image: photo1
     }, 
     {
@@ -87,284 +87,284 @@ import signage9 from '../../../public/SIGNAGES/signage9.jpg'
     {
         id: 6,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Skin Therm Pro',
         image: logo2
     }, 
     {
         id: 7,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 2',
         image: photo2
     }, 
     {
         id: 8,
         category: 'print',
-        title: 'Arizona',
+        title: 'Tradinor',
         image: print2
     }, 
     {
         id: 9,
         category: 'web',
-        title: 'Arizona',
+        title: 'Hotel App',
         image: web2
     }, 
     {
         id: 10,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Net Industriels',
         image: signage2
     }, 
     {
         id: 11,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Dars Radar',
         image: logo3
     }, 
     {
         id: 12,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 3',
         image: photo3
     }, 
     {
         id: 13,
         category: 'print',
-        title: 'Arizona',
+        title: 'Vigilec',
         image: print3
     }, 
     {
         id: 14,
         category: 'web',
-        title: 'Arizona',
+        title: 'Hotel App',
         image: web3
     }, 
     {
         id: 15,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Lynx Parts',
         image: signage3
     }, 
     {
         id: 16,
         category: 'logo',
-        title: 'Arizona',
+        title: 'King Pingu Food',
         image: logo4
     }, 
     {
         id: 17,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 4',
         image: photo4
     }, 
     {
         id: 18,
         category: 'print',
-        title: 'Arizona',
+        title: 'Business Card',
         image: print4
     }, 
     {
         id: 19,
         category: 'web',
-        title: 'Arizona',
+        title: 'Full House',
         image: web4
     }, 
     {
         id: 20,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Lynx Parts',
         image: signage4
     }, 
     {
         id: 21,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Mont Djurdjura',
         image: logo5
     }, 
     {
         id: 22,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 5',
         image: photo5
     }, 
     {
         id: 23,
         category: 'print',
-        title: 'Arizona',
+        title: 'Restaurant Menu',
         image: print5
     }, 
     {
         id: 24,
         category: 'web',
-        title: 'Arizona',
+        title: 'Service & Solution',
         image: web5
     }, 
     {
         id: 25,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Lynx Parts',
         image: signage5
     }, 
     {
         id: 26,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Délices',
         image: logo6
     }, 
     {
         id: 27,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 6',
         image: photo6
     }, 
     {
         id: 28,
         category: 'print',
-        title: 'Arizona',
+        title: 'Lemmima',
         image: print6
     }, 
     {
         id: 29,
         category: 'web',
-        title: 'Arizona',
+        title: 'Monaliza',
         image: web6
     }, 
     {
         id: 30,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Lynx Parts',
         image: signage6
     }, 
     {
         id: 31,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Full House',
         image: logo7
     }, 
     {
         id: 32,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 7',
         image: photo7
     }, 
     {
         id: 33,
         category: 'print',
-        title: 'Arizona',
+        title: 'Camel Milk',
         image: print7
     }, 
     {
         id: 34,
         category: 'web',
-        title: 'Arizona',
+        title: 'Monaliza',
         image: web7
     }, 
     {
         id: 35,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Prima',
         image: signage7
     }, 
     {
         id: 36,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Ceram Belle',
         image: logo8
     }, 
     {
         id: 37,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 8',
         image: photo8
     }, 
     {
         id: 38,
         category: 'print',
-        title: 'Arizona',
+        title: 'Depliant',
         image: print8
     }, 
  
     {
         id: 39,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Cino Parts',
         image: signage8
     }, 
     {
         id: 40,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Crossbow Tactical',
         image: logo9
     }, 
     {
         id: 41,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 9',
         image: photo9
     }, 
     {
         id: 42,
         category: 'print',
-        title: 'Arizona',
+        title: 'Vigelec',
         image: print9
     }, 
     {
         id: 43,
         category: 'signage',
-        title: 'Arizona',
+        title: 'Hoona Design',
         image: signage9
     }, 
     {
         id: 44,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Grill Burger',
         image: logo10
     }, 
     {
         id: 45,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 10',
         image: photo10
     }, 
     {
         id: 46,
         category: 'print',
-        title: 'Arizona',
+        title: 'Depliant',
         image: print10
     }, 
     {
         id: 47,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Nirvana Centre',
         image: logo11
     }, 
     {
         id: 48,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 11',
         image: photo11
     }, 
     {
         id: 49,
         category: 'print',
-        title: 'Arizona',
+        title: 'Business Card',
         image: print11
     }, 
     {
         id: 50,
         category: 'logo',
-        title: 'Arizona',
+        title: 'Max Furnitures',
         image: logo12
     }, 
     {
         id: 51,
         category: 'photo',
-        title: 'Arizona',
+        title: 'Photo 12',
         image: photo12
     }, 
     {
         id: 52,
         category: 'print',
-        title: 'Arizona',
+        title: 'Prodeal',
         image: print12
     }, 
     

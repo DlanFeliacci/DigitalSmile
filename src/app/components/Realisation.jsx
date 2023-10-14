@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import Image from 'next/image'
 import Realisation1 from '../../../public/Realisation1.png'
 import Realisation2 from '../../../public/Realisation2.png'
@@ -7,7 +8,6 @@ import Realisation4 from '../../../public/Realisation4.png'
 import Realisation5 from '../../../public/Realisation5.jpg'
 import Realisation6 from '../../../public/Realisation6.png'
 import Realisation7 from '../../../public/Realisation7.jpg'
-import Realisation8 from '../../../public/Realisation8.jpg'
 import Realisation9 from '../../../public/Realisation9.jpg'
 import logoDs from '../../../public/logo2-ds.jpg'
 import { IoMdArrowDropdownCircle } from 'react-icons/io';
@@ -121,9 +121,10 @@ const Realisation = () => {
                 </div>            
               </div>
           </div>
+          
           {/* Grid item 8 */}
           <div className="group relative">
-              <Image className='object-cover object-top shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {Realisation8} alt='img'/>
+              <Image className='object-cover object-top shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {Realisation9} alt='img'/>
               {/*Hover Effect*/}
               <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
@@ -137,17 +138,16 @@ const Realisation = () => {
 
           {/* Grid item 9 */}
           <div className="group relative">
-              <Image className='object-cover object-top shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {Realisation9} alt='img'/>
+          <Link href='/projects'>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
+              <div className="flex absolute w-[100%] opacity-95 top-0 bottom-0 bg-[#534092]">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
-                Project 9
-                </span>
-                <div className='w-12 absolute m-2'>
-                  <Image src={logoDs} alt='img'/>
-                </div>            
+                + Projects
+                </span>        
               </div>
+          </Link>
           </div>
+         
 
       </div>
     </div>

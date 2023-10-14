@@ -16,12 +16,16 @@ const navbar = () => {
 
   return (
     <div className="">
-        <div className='z-10 fixed w-full h-[70px]  flex justify-between items-center px-4 backdrop-blur-md'>
+        <div className='z-10 fixed w-full h-[70px]  flex justify-between items-center sm:px-4 backdrop-blur-md'>
+
             {/*Logo*/}
-            <div className='lg:ml-24'>
-                <Image 
-                src={Logo} width={190} alt='img' priority={true}/>
-            </div>
+            <Link href='/'>
+                <div className='lg:ml-24'>
+                    <Image 
+                    src={Logo} width={190} alt='img' priority={true}/>
+                </div>
+            </Link>
+
             {/* Menu */}
             <div className="lg:mr-24  text-black">
                 <ul className="hidden md:flex font-bold md:space-x-6 group">
@@ -55,7 +59,7 @@ const navbar = () => {
             
             </div>
                 {/* Hamburger */}
-                <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
+                <div onClick={handleClick} className="md:hidden z-10 cursor-pointer pr-4">
                     {!nav ? <FaBars size={30}/> : <FaTimes size={30}/>}
                 </div>
 
