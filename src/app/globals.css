@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 280px;
   background-position: top;
 }
 
@@ -95,5 +95,11 @@
   .map-container {
     width: 400px;
     height: 300px;
+  }
+}
+
+@media (min-width:2000px) {
+  .content-div{
+    height:400px;
   }
 }
