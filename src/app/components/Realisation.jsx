@@ -1,14 +1,14 @@
 'use client'
 import Link from 'next/link'
 import Image from 'next/image'
-import Realisation1 from '../../../public/Realisation1.png'
-import Realisation2 from '../../../public/Realisation2.png'
-import Realisation3 from '../../../public/Realisation3.png'
-import Realisation4 from '../../../public/Realisation4.png'
+import Realisation1 from '../../../public/Realisation1.jpg'
+import Realisation2 from '../../../public/Realisation2.jpg'
+import Realisation3 from '../../../public/Realisation3.jpg'
+import Realisation4 from '../../../public/Realisation4.jpg'
 import Realisation5 from '../../../public/Realisation5.jpg'
 import Realisation6 from '../../../public/Realisation6.png'
 import Realisation7 from '../../../public/Realisation7.jpg'
-import Realisation9 from '../../../public/Realisation9.jpg'
+import Realisation8 from '../../../public/Realisation8.jpg'
 import logoDs from '../../../public/logo2-ds.jpg'
 import { IoMdArrowDropdownCircle } from 'react-icons/io';
 
@@ -124,7 +124,7 @@ const Realisation = () => {
           
           {/* Grid item 8 */}
           <div className="group relative">
-              <Image className='object-cover object-top shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {Realisation9} alt='img'/>
+              <Image className='object-cover object-top shadow-md hover:shadow-lg group container flex justify-center items-center mx-auto content-div-home' src = {Realisation8} alt='img'/>
               {/*Hover Effect*/}
               <div className="flex absolute w-[100%] opacity-0 group-hover:opacity-95 top-0 bottom-0 bg-[#534092] duration-300">
                 <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">

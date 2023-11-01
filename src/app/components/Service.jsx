@@ -25,7 +25,7 @@ const Service = () => {
                 <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
                   What We Offer
                 </h2>
-                <p className="text-base text-body-color text-gray-500">
+                <p className="text-base text-body-color text-gray-800">
                   You can purchase a high quality service with us and let us do
                   the rest, here are our domain of expertise
                 </p>

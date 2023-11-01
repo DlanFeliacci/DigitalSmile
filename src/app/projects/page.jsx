@@ -29,7 +29,7 @@ const projects = () => {
       <div className="w-full h-auto">
         <div className="flex flex-col justify-center text-center p-8">
           <p className="text-4xl font-bold ">Check Out Our Work</p>
-          <p className="text-gray-500 pb-10 pt-5">
+          <p className="text-gray-800 pb-10 pt-5">
             here is a selection of different work that we finished:
             communication media, packaging, logos, websites, videos...
           </p>

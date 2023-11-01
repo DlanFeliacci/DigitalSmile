@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import catalogue from '../../../public/catalogue-icon.png'
 import Webdesign from '../../../public/webdesign.png'
 import Printer from '../../../public/printer.png'
 import Photography from '../../../public/Photography-icon.png'
@@ -10,11 +9,11 @@ import Blue from '../../../public/blue.png'
 
 const Expertise = () => {
   return (
-    <main className='h-full'>
+    <div className='h-full'>
       <div className='h-full w-4/5 m-auto'>
         <div className='flex-col text-center pb-10'>
           <div className='flex text-5xl font-bold h-20 items-center justify-center'><p>What we offer?</p></div>
-          <div><p className='text-gray-500'>Discover below our main services</p></div>
+          <div><p className='text-gray-800'>Discover below our main services</p></div>
         </div>
         
         <div className='grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-y-10 ml-[50px] lg:ml-[100px]'>
@@ -111,7 +110,7 @@ const Expertise = () => {
 
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 

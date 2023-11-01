@@ -6,7 +6,6 @@ import facebook from '../../../public/facebook.png'
 import linkedin from '../../../public/linkedin.png'
 import mail from '../../../public/email.png'
 import behance from '../../../public/behance.png'
-// import gear from '../../../public/gear.png'
 import ScrollToTop from './ScrollToTop'
 import LogoDigitalSmile from '../../../public/logo-digital-smile.png'
 import phone from '../../../public/phone.png'
@@ -16,7 +15,6 @@ import animationRobot from '../../../public/animation_robot.json'
 
 
 const Footer = ({text}) => {
-    
     
   return (
     <main className="w-full h-full">
@@ -34,37 +32,6 @@ const Footer = ({text}) => {
           </Link>
         </div>
       </div>
-
-      {/* <div className='w-4/5 md:h-[100px] grid grid-rows-3 md:grid-cols-3 m-auto content-center text-center mt-6 gap-y-4'>
-            <div className='flex flex-col gap-y-2'>
-                <p className='text-[#4F499D] font-bold text-2xl'>Appelez Nous</p>
-                <p className='font-semibold'>+213 542 05 41 23</p>
-            </div>
-
-            <div className='flex flex-col gap-y-2'>
-                <p className='text-[#4F499D] font-bold text-2xl'>Digital Smile Dz</p>
-                <p className='font-semibold'>Alger, Algérie</p>
-            </div>
-
-            <div className='flex flex-col gap-y-2'>
-                <p className='text-[#4F499D] font-bold text-2xl'>Suivez nous...</p>
-                <div className='flex justify-evenly'>
-                    <a href='https://www.linkedin.com/company/98183946/' target="_blank">
-                        <AiOutlineLinkedin size={40}/>
-                    </a>
-                    <a href='https://www.facebook.com/profile.php?id=100087374435338' target="_blank">
-                        <AiOutlineFacebook size={40}/>
-                    </a>
-                    <a href='' target="_blank">
-                        <AiOutlineMail size={40}/>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div className='w-2/12 m-auto pt-11 md:pt-0'>
-            <Image src={RobotHead} alt='img'/>
-        </div> */}
 
       <div className="w-full h-auto bg-gray-50">
         <div className="w-5/6 md:flex md:justify-center p-12 m-auto">
