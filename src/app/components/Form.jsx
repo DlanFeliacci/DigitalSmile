@@ -14,25 +14,25 @@ const Form = () => {
             <p className="pb-6 text-[#534092] text-lg font-bold">Project in mind? Get in touche with us</p>
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-first-name"
+              htmlFor="name"
             >
               Name or Company
             </label>
             <input
               className="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              id="grid-first-name"
+              id="name"
               type="text"
               name="name"
             />
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-first-name"
+              htmlFor="tel"
             >
               Tel
             </label>
             <input
               className="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              id="grid-first-name"
+              id="tel"
               type="text"
               name="tel"
               maxLength="11"
@@ -42,7 +42,7 @@ const Form = () => {
               <div className="w-full px-3">
                 <label
                   className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  htmlFor="grid-password"
+                  htmlFor="email"
                 >
                   E-mail
                 </label>
@@ -61,7 +61,7 @@ const Form = () => {
           <div className="w-full px-3">
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              htmlFor="message"
             >
               Message
             </label>
