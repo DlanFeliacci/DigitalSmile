@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import RobotHead from '../../../public/robot-head.png'
 import Link from 'next/link'
 import facebook from '../../../public/facebook.png'
 import linkedin from '../../../public/linkedin.png'
@@ -27,7 +26,7 @@ const Footer = ({text}) => {
           <p className="text-[#4F499D] font-semibold mx-4">{text}</p>
           <Link href="/contact">
             <button className="bg-[#4F499D] m-auto flex p-3 text-[white] font-bold mt-8 hover:bg-blue-600 rounded-md active:scale-90">
-              <h2>Ask For A Quotation</h2>
+              <p>Ask For A Quotation</p>
             </button>
           </Link>
         </div>
@@ -98,9 +97,9 @@ const Footer = ({text}) => {
         </div>
       </div>
 
-      <div className="m-auto flex items-center justify-center h-12 text-center p-1 text-gray-500 text-sm bg-gray-50">
+      <div className="m-auto flex items-center justify-center h-12 text-center p-1 text-gray-800 text-sm bg-gray-50">
         <p className="text-center tracking-widest w-3/6 font-semibold text-md text-md">
-          &#64;2023 Digital Smile, Built by A.Feliachi
+          &#64;2023 Digital Smile, built by A.Feliachi
         </p>
       </div>
       <ScrollToTop />
