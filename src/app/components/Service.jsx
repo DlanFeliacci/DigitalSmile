@@ -162,7 +162,7 @@ const ServiceCard = ({ icon, title, details }) => {
           >
             {icon}
           </div>
-          <h4 className="text-center text-[#534092] mb-3 text-3xl font-semibold text-dark">{title}</h4>
+          <p className="text-center text-[#534092] mb-3 text-3xl font-semibold text-dark">{title}</p>
           <div className="text-body-color text-justify font-semibold cursor-pointer">{details}</div>
         </div>
       </div>
