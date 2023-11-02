@@ -12,7 +12,7 @@ const Expertise = () => {
     <div className='h-full'>
       <div className='h-full w-4/5 m-auto'>
         <div className='flex-col text-center pb-10'>
-          <div className='flex text-5xl font-bold h-20 items-center justify-center'><p>What we offer?</p></div>
+          <div className='flex text-5xl font-bold h-20 items-center justify-center'><h1>What we offer?</h1></div>
           <div><p className='text-gray-800'>Discover below our main services</p></div>
         </div>
         
