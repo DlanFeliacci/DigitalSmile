@@ -19,41 +19,37 @@ const navbar = () => {
         <div className='z-10 fixed w-full h-[70px]  flex justify-between items-center sm:px-4 backdrop-blur-md'>
 
             {/*Logo*/}
-            <Link href='/'>
-                <div className='lg:ml-24'>
-                    <Image 
-                    src={Logo} width={190} alt='img' priority={true}/>
-                </div>
-            </Link>
+            
+            <div className='lg:ml-24'>
+                <Link href='/'>
+                    <Image src={Logo} width={190} alt='img' priority={true}/>
+                </Link> 
+            </div>
+            
 
             {/* Menu */}
             <div className="lg:mr-24  text-black">
                 <ul className="hidden md:flex font-bold md:space-x-6 group">
-                    <Link href='/'>
-                        <li className={currentRoute === '/' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}> 
-                            Home
-                        </li>
-                    </Link> 
-                    <Link href='/projects'>
-                        <li  className={currentRoute === '/projects' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
-                            Projects
-                        </li>
-                    </Link> 
-                    <Link href='/services'>
-                        <li  className={currentRoute === '/services' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
-                            Services
-                        </li>
-                    </Link>
-                    <Link href ='/about'>
-                        <li  className={currentRoute === '/about' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
-                            About
-                        </li>
-                    </Link> 
-                    <Link href='/contact'>
-                        <li  className={currentRoute === '/contact' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
-                            Contact
-                        </li>
-                    </Link> 
+                    <li className={currentRoute === '/' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}> 
+                        <Link href='/'> Home </Link> 
+                    </li>
+                    
+                    <li  className={currentRoute === '/projects' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
+                        <Link href='/projects'> Projects </Link>
+                    </li>
+                     
+                    <li  className={currentRoute === '/services' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
+                        <Link href='/services'> Services </Link>
+                    </li>
+                        
+                    <li  className={currentRoute === '/about' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
+                        <Link href ='/about'> About </Link> 
+                    </li>
+                
+                    <li  className={currentRoute === '/contact' ? 'bg-[#7BBF43]  text-white duration-300 p-1 px-3 rounded-3xl' : 'p-1 hover:text-[#7BBF43]'}>
+                        <Link href='/contact'> Contact </Link> 
+                    </li>
+                    
                 </ul>
                 
             
@@ -71,31 +67,26 @@ const navbar = () => {
                         : "md:hidden absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#85fea1] to-[#023b1f] flex flex-col justify-center items-center text-white"
                     }
                     >
-                    <Link href="/"  duration={500}>
-                        <li onClick={handleClick} className="py-6 text-4xl">
-                            Home
-                        </li>
-                    </Link>
-                    <Link href="projects"  duration={500}>
-                        <li onClick={handleClick} className="py-6 text-4xl">
-                            Projects
-                        </li>
-                    </Link>
-                    <Link href="services"  duration={500}>
-                        <li onClick={handleClick} className="py-6 text-4xl">
-                            Services
-                        </li>
-                    </Link>
-                    <Link href="about"  duration={500}>
-                        <li onClick={handleClick} className="py-6 text-4xl">
-                            About
-                        </li>
-                    </Link>
-                    <Link href="contact"  duration={500}>
-                        <li onClick={handleClick} className="py-6 text-4xl">
-                            Contact
-                        </li>
-                    </Link>
+                    <li onClick={handleClick} className="py-6 text-4xl">
+                        <Link href="/"  duration={500}> Home </Link>     
+                    </li>
+                    
+                    <li onClick={handleClick} className="py-6 text-4xl">
+                        <Link href="projects"  duration={500}> Projects </Link>
+                    </li>
+                    
+                    <li onClick={handleClick} className="py-6 text-4xl">
+                        <Link href="services"  duration={500}> Services </Link>
+                    </li>
+                    
+                    <li onClick={handleClick} className="py-6 text-4xl">
+                        <Link href="about"  duration={500}> About </Link>
+                    </li>
+                    
+                    <li onClick={handleClick} className="py-6 text-4xl">
+                        <Link href="contact"  duration={500}> Contact </Link>
+                    </li>
+                    
                 </ul>
         </div>
     </div>

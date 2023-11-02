@@ -1,4 +1,3 @@
-'use client'
 import Link from 'next/link'
 import Image from 'next/image'
 import Realisation1 from '../../../public/Realisation1.jpg'

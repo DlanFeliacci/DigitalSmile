@@ -1,3 +1,4 @@
+'use client'
 import Expertise from '../components/Expertise'
 import Realisation from '../components/Realisation'
 import Hero from '../components/Hero'
