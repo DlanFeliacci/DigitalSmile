@@ -1,4 +1,4 @@
-
+'use client'
 import Image from "next/image"
 import robot from '../../../public/robot.png'
 import Lottie from 'lottie-react'
