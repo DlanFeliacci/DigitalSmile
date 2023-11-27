@@ -16,7 +16,7 @@ const Expertise = () => {
           <div><p className='text-gray-800'>Discover below our main services</p></div>
         </div>
         
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-y-10 ml-[50px] lg:ml-[100px]'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-y-10 ml-[50px] lg:ml-[100px] cursor-pointer'>
 
           <div className='flex flex-row md:ml-auto'>
             <div className='pr-2'>

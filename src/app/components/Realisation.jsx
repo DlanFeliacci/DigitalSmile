@@ -139,8 +139,8 @@ const Realisation = () => {
           <div className="group relative">
           <Link href='/projects'>
               {/*Hover Effect*/}
-              <div className="flex absolute w-[100%] opacity-95 top-0 bottom-0 bg-[#534092]">
-                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-125 duration-300">
+              <div className="flex absolute w-[100%] opacity-95 top-0 bottom-0 bg-[#7BBF43]">
+                <span className="text-2xl font-bold text-white tracking-wider m-auto group-hover:scale-150 duration-300">
                 + Projects
                 </span>        
               </div>
